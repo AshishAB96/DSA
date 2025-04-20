@@ -165,7 +165,7 @@ void DeleteAtPos(PPNODE head , PPNODE tail, int iPos)
     PNODE targetnode = NULL;
     int Countnode = Count(*head , *tail);
 
-    if(iPos < 1 || iPos > Countnode + 1)
+    if(iPos < 1 || iPos > Countnode)
     {
         printf("Invalid Position \n");
         return;
